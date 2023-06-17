@@ -40,7 +40,6 @@ const verifyJWT = (req, res, next) => {
 };
 
 
-// _____________________________**
 
 const { MongoClient, ServerApiVersion,ObjectId } = require('mongodb');
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.8nylo01.mongodb.net/?retryWrites=true&w=majority`;
