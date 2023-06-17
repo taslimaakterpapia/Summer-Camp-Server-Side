@@ -307,7 +307,6 @@ const verifyAdmin = async (req, res, next) => {
     res.send(result);
   })
 
-  ///////////////////////
 
     // create payment intent
     app.post("/create-payment-intent", async (req, res) => {
