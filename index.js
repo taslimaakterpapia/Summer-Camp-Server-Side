@@ -229,7 +229,7 @@ const verifyAdmin = async (req, res, next) => {
       const result = await classesCollection.updateOne(filter, updateDoc);
       res.send(result);
     });
-/////////////////////////////////////////////////////
+
 
     //get data by status
 
