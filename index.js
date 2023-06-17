@@ -134,7 +134,7 @@ const verifyAdmin = async (req, res, next) => {
       });
 
 
-////////////////////////////////////////////
+
     app.put('/users/:email',async(req,res)=>{
         const email=req.params.email;
         const user=req.body;
