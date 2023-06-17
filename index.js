@@ -69,7 +69,6 @@ async function run() {
     const paymentCollection=client.db('languagedb').collection('paymentSuccessList');
 
 
-////////////////////////////////
  // JWT
  app.post("/jwt", (req, res) => {
   const user = req.body;
